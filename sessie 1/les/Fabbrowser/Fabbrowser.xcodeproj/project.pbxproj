@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA17E6A019CAFEB800269027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17E69F19CAFEB800269027 /* AppDelegate.swift */; };
+		CA17E6A219CAFEB800269027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17E6A119CAFEB800269027 /* ViewController.swift */; };
+		CA17E6A519CAFEB800269027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA17E6A319CAFEB800269027 /* Main.storyboard */; };
+		CA17E6A719CAFEB800269027 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA17E6A619CAFEB800269027 /* Images.xcassets */; };
+		CA17E6AA19CAFEB800269027 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA17E6A819CAFEB800269027 /* LaunchScreen.xib */; };
+		CA17E6B619CAFEB800269027 /* FabbrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17E6B519CAFEB800269027 /* FabbrowserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA17E6B019CAFEB800269027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA17E69219CAFEB800269027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA17E69919CAFEB800269027;
+			remoteInfo = Fabbrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA17E69A19CAFEB800269027 /* Fabbrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fabbrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA17E69E19CAFEB800269027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA17E69F19CAFEB800269027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA17E6A119CAFEB800269027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA17E6A419CAFEB800269027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA17E6A619CAFEB800269027 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CA17E6A919CAFEB800269027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CA17E6AF19CAFEB800269027 /* FabbrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabbrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA17E6B419CAFEB800269027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA17E6B519CAFEB800269027 /* FabbrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabbrowserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA17E69719CAFEB800269027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA17E6AC19CAFEB800269027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA17E69119CAFEB800269027 = {
+			isa = PBXGroup;
+			children = (
+				CA17E69C19CAFEB800269027 /* Fabbrowser */,
+				CA17E6B219CAFEB800269027 /* FabbrowserTests */,
+				CA17E69B19CAFEB800269027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA17E69B19CAFEB800269027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA17E69A19CAFEB800269027 /* Fabbrowser.app */,
+				CA17E6AF19CAFEB800269027 /* FabbrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA17E69C19CAFEB800269027 /* Fabbrowser */ = {
+			isa = PBXGroup;
+			children = (
+				CA17E69F19CAFEB800269027 /* AppDelegate.swift */,
+				CA17E6A119CAFEB800269027 /* ViewController.swift */,
+				CA17E6A319CAFEB800269027 /* Main.storyboard */,
+				CA17E6A619CAFEB800269027 /* Images.xcassets */,
+				CA17E6A819CAFEB800269027 /* LaunchScreen.xib */,
+				CA17E69D19CAFEB800269027 /* Supporting Files */,
+			);
+			path = Fabbrowser;
+			sourceTree = "<group>";
+		};
+		CA17E69D19CAFEB800269027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA17E69E19CAFEB800269027 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA17E6B219CAFEB800269027 /* FabbrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA17E6B519CAFEB800269027 /* FabbrowserTests.swift */,
+				CA17E6B319CAFEB800269027 /* Supporting Files */,
+			);
+			path = FabbrowserTests;
+			sourceTree = "<group>";
+		};
+		CA17E6B319CAFEB800269027 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA17E6B419CAFEB800269027 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA17E69919CAFEB800269027 /* Fabbrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA17E6B919CAFEB800269027 /* Build configuration list for PBXNativeTarget "Fabbrowser" */;
+			buildPhases = (
+				CA17E69619CAFEB800269027 /* Sources */,
+				CA17E69719CAFEB800269027 /* Frameworks */,
+				CA17E69819CAFEB800269027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fabbrowser;
+			productName = Fabbrowser;
+			productReference = CA17E69A19CAFEB800269027 /* Fabbrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA17E6AE19CAFEB800269027 /* FabbrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA17E6BC19CAFEB800269027 /* Build configuration list for PBXNativeTarget "FabbrowserTests" */;
+			buildPhases = (
+				CA17E6AB19CAFEB800269027 /* Sources */,
+				CA17E6AC19CAFEB800269027 /* Frameworks */,
+				CA17E6AD19CAFEB800269027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA17E6B119CAFEB800269027 /* PBXTargetDependency */,
+			);
+			name = FabbrowserTests;
+			productName = FabbrowserTests;
+			productReference = CA17E6AF19CAFEB800269027 /* FabbrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA17E69219CAFEB800269027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "NHL Hogeschool";
+				TargetAttributes = {
+					CA17E69919CAFEB800269027 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CA17E6AE19CAFEB800269027 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CA17E69919CAFEB800269027;
+					};
+				};
+			};
+			buildConfigurationList = CA17E69519CAFEB800269027 /* Build configuration list for PBXProject "Fabbrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA17E69119CAFEB800269027;
+			productRefGroup = CA17E69B19CAFEB800269027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA17E69919CAFEB800269027 /* Fabbrowser */,
+				CA17E6AE19CAFEB800269027 /* FabbrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA17E69819CAFEB800269027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA17E6A519CAFEB800269027 /* Main.storyboard in Resources */,
+				CA17E6AA19CAFEB800269027 /* LaunchScreen.xib in Resources */,
+				CA17E6A719CAFEB800269027 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA17E6AD19CAFEB800269027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA17E69619CAFEB800269027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA17E6A219CAFEB800269027 /* ViewController.swift in Sources */,
+				CA17E6A019CAFEB800269027 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA17E6AB19CAFEB800269027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA17E6B619CAFEB800269027 /* FabbrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA17E6B119CAFEB800269027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA17E69919CAFEB800269027 /* Fabbrowser */;
+			targetProxy = CA17E6B019CAFEB800269027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA17E6A319CAFEB800269027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA17E6A419CAFEB800269027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA17E6A819CAFEB800269027 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA17E6A919CAFEB800269027 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA17E6B719CAFEB800269027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA17E6B819CAFEB800269027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA17E6BA19CAFEB800269027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fabbrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA17E6BB19CAFEB800269027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fabbrowser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA17E6BD19CAFEB800269027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FabbrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fabbrowser.app/Fabbrowser";
+			};
+			name = Debug;
+		};
+		CA17E6BE19CAFEB800269027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FabbrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fabbrowser.app/Fabbrowser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA17E69519CAFEB800269027 /* Build configuration list for PBXProject "Fabbrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA17E6B719CAFEB800269027 /* Debug */,
+				CA17E6B819CAFEB800269027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA17E6B919CAFEB800269027 /* Build configuration list for PBXNativeTarget "Fabbrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA17E6BA19CAFEB800269027 /* Debug */,
+				CA17E6BB19CAFEB800269027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA17E6BC19CAFEB800269027 /* Build configuration list for PBXNativeTarget "FabbrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA17E6BD19CAFEB800269027 /* Debug */,
+				CA17E6BE19CAFEB800269027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA17E69219CAFEB800269027 /* Project object */;
+}
