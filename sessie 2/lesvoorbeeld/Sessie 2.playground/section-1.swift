@@ -97,14 +97,37 @@ draaiom (klanten)
 
 
 
+klanten.reduce(klanten.first!, {(k1 : Klant, k2 : Klant) -> Klant in
+        if(k1.krediet < k2.krediet){
+            return k1
+        }
+        return k2
+    })
 
 
 
 
+klanten.reduce(klanten.first!, {(k1, k2)  in
+    if(k1.krediet < k2.krediet){
+        return k1
+    }
+    return k2
+})
 
+klanten.reduce(klanten.first!, {(k1, k2)  in
+    return k1.krediet < k2.krediet ? k1 : k2
+})
 
+klanten.reduce(klanten.first!, {
+    return $0.krediet < $1.krediet ? $0 : $1
+})
 
+func laagste_krediet (k1: Klant, k2 : Klant) -> Klant {
+    return k1.krediet < k2.krediet ? k1 : k2
+    
+}
 
+klanten.reduce(klanten.first!, laagste_krediet)
 
 
 
@@ -115,7 +138,9 @@ draaiom (klanten)
 
 
 //Hierna voor nerds
-getallen.reduce(0, combine: +)
+let getallen2 = [1,2,3,4,5,5,6]
+
+getallen2.reduce(1, combine: +)
 
 
 func * (text:String, number : Int )->String{
@@ -126,7 +151,7 @@ func * (text:String, number : Int )->String{
     return result
 }
 "raymond" * 3
-
+    
 let sineArraySize = 64
 
 let frequency1 = 4.0
@@ -136,6 +161,8 @@ let sineWave = (0..<sineArraySize).map {
     amplitude1 * cos(1.0 * M_PI / Double(sineArraySize) * Double($0) * frequency1 + phase1)
 }
 
+let view = UIView(frame: CGRectMake(0,0,100,100))
+view.backgroundColor = UIColor.redColor()
 
 
 
