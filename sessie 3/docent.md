@@ -1,20 +1,22 @@
-//
-//  AppDelegate.swift
-//  LegeApp
-//
-//  Created by Raymond van Dongelen on 26-09-14.
-//  Copyright (c) 2014 NHL. All rights reserved.
-//
+# Sessie 3
+App vanuit het niets
 
-import UIKit
+## Doel
+Een aantal basis constructies vanuit het Cocoa Touch framework begrijpen.
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    var window: UIWindow?
+## Demo 
+- Maak een nieuw project aan. 
+- Verwijder het storyboard. 
+- Verwijder referentie naar het storyboard uit de propertlist
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+## Opzet
+
+Opzet:
+
+# Demo 1
+
+
         window = UIWindow (frame: UIScreen.mainScreen().bounds)
         
         let redController = UIViewController()
@@ -31,8 +33,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         greenController.view.backgroundColor = UIColor.greenColor()
         greenController.title = "green"
 
-        return true
-    }
-
-}
-
+# Demo 2

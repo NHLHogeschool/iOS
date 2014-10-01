@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CA5A172819D5BDE500D3A725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A172719D5BDE500D3A725 /* AppDelegate.swift */; };
-		CA5A172A19D5BDE500D3A725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A172919D5BDE500D3A725 /* ViewController.swift */; };
-		CA5A172D19D5BDE500D3A725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5A172B19D5BDE500D3A725 /* Main.storyboard */; };
 		CA5A172F19D5BDE500D3A725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5A172E19D5BDE500D3A725 /* Images.xcassets */; };
 		CA5A173219D5BDE500D3A725 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA5A173019D5BDE500D3A725 /* LaunchScreen.xib */; };
 		CA5A173E19D5BDE500D3A725 /* LegeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A173D19D5BDE500D3A725 /* LegeAppTests.swift */; };
@@ -29,8 +27,6 @@
 		CA5A172219D5BDE500D3A725 /* LegeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5A172619D5BDE500D3A725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA5A172719D5BDE500D3A725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA5A172919D5BDE500D3A725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA5A172C19D5BDE500D3A725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5A172E19D5BDE500D3A725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CA5A173119D5BDE500D3A725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CA5A173719D5BDE500D3A725 /* LegeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				CA5A172719D5BDE500D3A725 /* AppDelegate.swift */,
-				CA5A172919D5BDE500D3A725 /* ViewController.swift */,
-				CA5A172B19D5BDE500D3A725 /* Main.storyboard */,
 				CA5A172E19D5BDE500D3A725 /* Images.xcassets */,
 				CA5A173019D5BDE500D3A725 /* LaunchScreen.xib */,
 				CA5A172519D5BDE500D3A725 /* Supporting Files */,
@@ -192,7 +186,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5A172D19D5BDE500D3A725 /* Main.storyboard in Resources */,
 				CA5A173219D5BDE500D3A725 /* LaunchScreen.xib in Resources */,
 				CA5A172F19D5BDE500D3A725 /* Images.xcassets in Resources */,
 			);
@@ -212,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5A172A19D5BDE500D3A725 /* ViewController.swift in Sources */,
 				CA5A172819D5BDE500D3A725 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,14 +228,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CA5A172B19D5BDE500D3A725 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA5A172C19D5BDE500D3A725 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA5A173019D5BDE500D3A725 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
