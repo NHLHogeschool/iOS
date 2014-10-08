@@ -140,7 +140,8 @@ klanten.reduce(klanten.first!, laagste_krediet)
 //Hierna voor nerds
 let getallen2 = [1,2,3,4,5,5,6]
 
-getallen2.reduce(1, combine: +)
+getallen2.reduce(0, +)
+getallen2.reduce(1, *)
 
 
 func * (text:String, number : Int )->String{
@@ -156,13 +157,14 @@ let sineArraySize = 64
 
 let frequency1 = 4.0
 let phase1 = 0.0
-let amplitude1 = 2.0
+let amplitude1 = 1.0
 let sineWave = (0..<sineArraySize).map {
-    amplitude1 * cos(1.0 * M_PI / Double(sineArraySize) * Double($0) * frequency1 + phase1)
+    amplitude1 * sin(1.0 * M_PI / Double(sineArraySize) * Double($0) * frequency1 + phase1)
 }
 
 let view = UIView(frame: CGRectMake(0,0,100,100))
-view.backgroundColor = UIColor.redColor()
+view.backgroundColor = UIColor.blueColor()
+
 
 
 
