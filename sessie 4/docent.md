@@ -8,6 +8,10 @@ Losse elementen toevoegen aan schermen.
 
 Opzet:
 
+
+Delegate en protocol
+
+
 # Demo 1
 UIView maken verschillende kleuren. Toevoegen aan standaard controller
 
@@ -38,4 +42,11 @@ class NumberView: UIView {
     }
     
 }       
+
+
+Button:
+
+let b = UIButton (frame: CGRectMake(0,0,200,200))
+b.setTitle("Hoi", forState: UIControlState.Normal)
+
 

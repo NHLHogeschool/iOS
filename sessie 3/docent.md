@@ -4,15 +4,17 @@ App vanuit het niets
 ## Doel
 Een aantal basis constructies vanuit het Cocoa Touch framework begrijpen.
 
+## Opzet
+
+Opzet:
 ## Demo 
 - Maak een nieuw project aan. 
 - Verwijder het storyboard. 
 - Verwijder referentie naar het storyboard uit de propertlist
 
+Aanmaken lege viewController
+uitleg viewController
 
-## Opzet
-
-Opzet:
 
 # Demo 1
 
