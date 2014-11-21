@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5576065D-9856-43AE-AE7F-CA4780CFD6A4</string>
+	<string>64CDFE50-006E-4E09-A4CB-F243EE7A8F7A</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TableDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/NHLHogeschool/iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>voorbeeld singleton/TableDemo/TableDemo.xcodeproj</string>
+	<string>voorbeeld singleton backend/TableDemo/TableDemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E23E27025EC445781F8A91606B9443E4B87194B6</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/NHLHogeschool/iOS.git</string>
