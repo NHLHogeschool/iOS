@@ -1,52 +1,38 @@
-# Sessie 4
-Gebruik van UIView
+# Sessie 3
+App vanuit het niets
 
 ## Doel
-Losse elementen toevoegen aan schermen.
+Een aantal basis constructies vanuit het Cocoa Touch framework begrijpen.
 
 ## Opzet
 
 Opzet:
+## Demo 
+- Maak een nieuw project aan. 
+- Verwijder het storyboard. 
+- Verwijder referentie naar het storyboard uit de propertlist
 
-
-Delegate en protocol
+Aanmaken lege viewController
+uitleg viewController
 
 
 # Demo 1
-UIView maken verschillende kleuren. Toevoegen aan standaard controller
+
+
+        window = UIWindow (frame: UIScreen.mainScreen().bounds)
+        
+        let redController = UIViewController()
+        let greenController = UIViewController()
+        
+        let tabController = UITabBarController()
+        
+        tabController.viewControllers = [redController, greenController]
+        window!.rootViewController = tabController
+        window!.makeKeyAndVisible()
+        
+        redController.view.backgroundColor = UIColor.redColor()
+        redController.title = "red"
+        greenController.view.backgroundColor = UIColor.greenColor()
+        greenController.title = "green"
 
 # Demo 2
-class NumberView: UIView {
-    override init (frame : CGRect) {
-        super.init(frame : frame)
-        addControls()
-    }
-        
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    func addControls (){
-        self.setTranslatesAutoresizingMaskIntoConstraints(false)
-    }
-    
-    private var nn : Int = 0
-    var number : Int {
-        set {
-            self.backgroundColor = UIColor(patternImage: UIImage (named: "number\(newValue)"))
-            nn = newValue
-        }
-        get {
-            return nn
-        }
-    }
-    
-}       
-
-
-Button:
-
-let b = UIButton (frame: CGRectMake(0,0,200,200))
-b.setTitle("Hoi", forState: UIControlState.Normal)
-
-

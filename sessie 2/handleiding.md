@@ -2,10 +2,14 @@
 In deze sessie staat de taal swift centraal
 
 ## Doel
-In de eerste sessie staan de omgeving XCode en de programmeertaal Swift centraal. We gaan een kleine interface maken, en we zien de programmeertaal voor het eerst.
+In deze sessie vooral veel oefenen met de taal.
+
 
 ## Lezen en doen
 The swift programming language, de handeliding van Apple.
+
+## Bekijken
+Les 2 van Stanford
 
 
 ## Opzet
