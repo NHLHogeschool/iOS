@@ -1,0 +1,24 @@
+# Sessie 1
+Vandaag een kennismaking met de tools die we de komende weken gaan gebruiken.
+
+## Doel
+In de eerste sessie staan de omgeving XCode en de programmeertaal Swift centraal. We gaan een kleine interface maken, en we zien de programmeertaal voor het eerst.
+
+## Bekijken
+Eerste les Stanford cursus: 
+
+
+## Opzet
+
+Opzet:
+
+* Overzicht van de verschillende tools die Apple meelevert in de SDK
+* Maken van een eenvoudige Hello World
+* Korte uitleg outlets en actions
+* Pauze 
+* Oefening: Maken eigen webbrowser
+* Nabespreken
+
+### Opdracht
+Maak een eenvoudige webbrowser
+
