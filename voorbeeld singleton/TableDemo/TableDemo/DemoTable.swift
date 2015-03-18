@@ -70,7 +70,7 @@ class DemoTable : UITableViewController, UITableViewDataSource {
             cell = UITableViewCell(style: UITableViewCellStyle.Value2, reuseIdentifier: CELL_TYPE_ID)
         }
         
-        cell!.textLabel.text = boeken.boekAtIndex(indexPath.row)
+        cell!.textLabel!.text = boeken.boekAtIndex(indexPath.row)
         
         return cell!
     }
