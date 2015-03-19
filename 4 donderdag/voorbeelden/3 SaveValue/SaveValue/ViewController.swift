@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     override func viewWillAppear(animated: Bool) {
         println (NSUserDefaults.standardUserDefaults().valueForKey("veld"))
-        textToSave.text = NSUserDefaults.standardUserDefaults().valueForKey("veld") as? String
+        textToSave.text = NSUserDefaults.standardUserDefaults().stringForKey("veld")
     }
 
     override func didReceiveMemoryWarning() {

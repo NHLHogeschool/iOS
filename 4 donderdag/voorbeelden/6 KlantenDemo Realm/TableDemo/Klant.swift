@@ -51,3 +51,14 @@ class Klanten {
         realm.commitWriteTransaction()
     }
 }
+
+
+
+
+
+
+
+
+
+
+
